@@ -3310,7 +3310,7 @@ $(for i in $dname;do echo $i ;done)  \
         cd ~
         git clone https://github.com/sivel/speedtest-cli.git
         chmod +x ~/speedtest-cli/speedtest.py
-        python ~/speedtest-cli/speedtest.py
+        python3 ~/speedtest-cli/speedtest.py
         echo "Enter to continue."
         cd $op
         read x
